@@ -102,6 +102,7 @@ function RecipeList(props) {
                           <strong>Cuisine Type: </strong>
                           <small>{selectedItem.recipe.cuisineType[0]}</small>
                         </p>
+                        <a target="_blank" href={selectedItem.recipe.url}>Full Recipe</a>
                       </div>
                     </Col>
                     {/* You can display other data from the selected item here */}
