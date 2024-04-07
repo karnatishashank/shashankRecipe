@@ -1,0 +1,56 @@
+.nav {
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #8a2b06;
+    font-family: "Rokkitt", serif;
+   
+   }
+   .nav a{
+    text-decoration: none;
+   }
+   .logoLink{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+   }
+   .logo{
+     object-fit: cover;
+     height: 3rem;
+     width: 4rem;
+   }
+   .desktopMenuListItem{
+     margin: 1rem;
+     cursor: pointer;
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.25rem;
+   }
+   .desktopMenuListItem:hover{
+     padding-bottom: 0.5rem;
+     border-bottom: 2px solid #fff;
+     
+   }
+   .desktopMenuImg{
+     object-fit: cover;
+     height: 1rem;
+     width: 1rem;
+     margin: 1rem;
+   }
+   .desktopMenuBtn{
+     background:#fff;
+     color: #000;
+     border: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 0 1rem;
+     border-radius: 2rem;
+   }

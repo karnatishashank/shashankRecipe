@@ -2,6 +2,7 @@ import CalorieCalculator from './CalorieCalculator';
 import CalorieCalculatorResult from './CalorieCalculatorResult';
 import React, {useEffect, useState, useRef} from 'react';
 import { useLocation } from 'react-router-dom'
+import CommonHeader from  '../Layout/CommonHeader'
 
 
 const Calories = () => {
@@ -35,6 +36,8 @@ const Calories = () => {
     }
 
     return(
+        <div className='caloriesParent'>
+        <CommonHeader/>
         <main className="calories">
             {/* CalorieCalculator retrieves and stores the results using setCalculationResult */}
             <CalorieCalculator setCalculationResult={setCalculationResult} />
@@ -44,6 +47,7 @@ const Calories = () => {
 
            
         </main>
+        </div>
     )
 }
 

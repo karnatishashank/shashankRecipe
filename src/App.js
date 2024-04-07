@@ -6,6 +6,7 @@ import HomePage from './components/HomePage';
 import MealPlan from './components/MealPlanner/MealPlan';
 import MealPlanning from './components/MealPlanner/MealPlanner';
 import Calories from './components/CalorieCount/Calories';
+import NutritionAnalysis from './components/NutritionAnalysis/NutritionAnalysis';
 
 
 
@@ -19,7 +20,8 @@ function App() {
           <Route path="/recipe" element={<Start/>}/>
           <Route path="/order-food" element={<FoodOreder/>}/>
           <Route path="/mealPlan" element={<MealPlanning/>}/>
-          <Route path="/calorieCounr" element={<Calories/>}/>
+          <Route path="/calorieCount" element={<Calories/>}/>
+          <Route path="/nutrtionAnalysis" element={<NutritionAnalysis/>}/>
           </Routes>
        
       </div>

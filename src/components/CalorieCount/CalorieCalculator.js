@@ -1,6 +1,8 @@
 import { activityLevels } from '../../assets/utils/data';
 import Loader from './Loader'
 import {useState} from 'react'
+import '../../styles/CalorieCalculator.scss'
+import '../../styles/CalorieCalculatorResult.scss'
 
 const requestOptions = {
     method: 'GET',
