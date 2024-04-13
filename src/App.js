@@ -7,6 +7,9 @@ import MealPlan from './components/MealPlanner/MealPlan';
 import MealPlanning from './components/MealPlanner/MealPlanner';
 import Calories from './components/CalorieCount/Calories';
 import NutritionAnalysis from './components/NutritionAnalysis/NutritionAnalysis';
+import MealPlanner from './components/MealPlanner/MealPlanner';
+import Contact from './components/Contact/contact';
+import NutritionHome from './components/NutritionAnalysis/NutritionHome';
 
 
 
@@ -21,7 +24,9 @@ function App() {
           <Route path="/order-food" element={<FoodOreder/>}/>
           <Route path="/mealPlan" element={<MealPlanning/>}/>
           <Route path="/calorieCount" element={<Calories/>}/>
-          <Route path="/nutrtionAnalysis" element={<NutritionAnalysis/>}/>
+          <Route path="/nutrtionAnalysis" element={<NutritionHome/>}/>
+          <Route path="/mealPlanner" element={<MealPlanner/>}/>
+          <Route path="/contactUs" element={<Contact/>}/>
           </Routes>
        
       </div>

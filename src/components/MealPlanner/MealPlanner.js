@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import MealPlan from './MealPlan';
 import { useLocation } from 'react-router-dom'
 import { mealPlanningSamples } from '../../assets/utils/data'
+import './MealPlanningSamples.scss'
 
 
 const MealPlanner = () => {

@@ -50,7 +50,7 @@ const CommonHeader = (props) => {
           duration={500}
           className="desktopMenuListItem"
         >
-          Nutriotion Analysis
+          Nutrition Analysis
         </Link>
         <Link
           to="/order-food"
@@ -64,7 +64,7 @@ const CommonHeader = (props) => {
         </Link>
       </div>
       <Link
-        to=""
+        to="/contactUs"
         activeClass="active"
         spy={true}
         smooth={true}

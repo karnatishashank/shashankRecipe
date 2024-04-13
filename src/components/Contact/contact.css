@@ -1,0 +1,73 @@
+.contactParent{
+    background: url('../Recipe/home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#contact{
+    
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+
+}
+.contactPageDetails{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.contactDesc{
+    font-weight: 400;
+    font-size: 0.9rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background: lightgray;
+    color: #000;
+    border-radius: 20px;
+}
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    border: none;
+    border-radius: 0.5rem;
+    border: #8a2b06 1px solid;
+   
+}
+.submitButton{
+    background: #8a2b06;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+    color: #FFF;
+}
+
+.link{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+.link i{
+    padding: 0 0.25rem;
+}
