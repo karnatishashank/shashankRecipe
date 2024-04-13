@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e0b003a.css",
-    "main.js": "/static/js/main.54d4c478.js",
+    "main.css": "/static/css/main.6b3c5f50.css",
+    "main.js": "/static/js/main.6d42c852.js",
+    "static/media/order.png": "/static/media/order.8fd967ab09ff7d20ccd2.png",
     "static/media/home.png": "/static/media/home.922198bc412403046795.png",
     "static/media/meals.jpg": "/static/media/meals.2971f633fc1382581cbf.jpg",
+    "static/media/nutrition.png": "/static/media/nutrition.92fe21b910135d0157cb.png",
+    "static/media/ShashankRecipelogo.png": "/static/media/ShashankRecipelogo.9ce5da8258f9bc50a9d1.png",
     "static/media/Bagg.jpeg": "/static/media/Bagg.554c53e61978458c1647.jpeg",
     "static/media/recipelogo.svg": "/static/media/recipelogo.26abfb21f0a6dd63335885fe5585f65d.svg",
+    "static/media/calories.png": "/static/media/calories.11171c2d09d7793a8854.png",
+    "static/media/recipes.png": "/static/media/recipes.618977e2d17e3761ad77.png",
     "index.html": "/index.html",
-    "main.1e0b003a.css.map": "/static/css/main.1e0b003a.css.map",
-    "main.54d4c478.js.map": "/static/js/main.54d4c478.js.map"
+    "main.6b3c5f50.css.map": "/static/css/main.6b3c5f50.css.map",
+    "main.6d42c852.js.map": "/static/js/main.6d42c852.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e0b003a.css",
-    "static/js/main.54d4c478.js"
+    "static/css/main.6b3c5f50.css",
+    "static/js/main.6d42c852.js"
   ]
 }

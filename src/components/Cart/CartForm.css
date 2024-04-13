@@ -1,0 +1,15 @@
+
+  .deliveryForm h3{
+    color: #8a2b06;
+
+  }
+  .deliveryForm label{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .deliveryForm input{
+    margin: 0.5rem;
+    border: #363636 1px solid;
+    border-radius: 6px;
+    padding: 0.25rem 0.75rem;
+  }

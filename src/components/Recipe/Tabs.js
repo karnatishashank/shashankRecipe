@@ -25,17 +25,17 @@ function Tabs(props) {
         {
             name: "Deserts",
             icons: <GiFruitBowl />,
-            id:"eb3e2b49525a0c8ce7327436f843321a"
+            id:"cc3440c4bc4e438ea56c0c32bc6a67f3"
         },
         {
             name: "Noodles",
             icons: <GiNoodles />,
-            id:"e0f06a8d4769e6a9344ff766d04a206f"
+            id:"15ef9288e46d4ce396f264b97afe47bd"
         },
         {
             name: "Icecream",
             icons: <MdOutlineIcecream />,
-            id:"896b5a44ebddd867e5c07c8d256e805e"
+            id:"cb6a608d248cf5290447947acbc37fc2"
         },
     ])
 
@@ -65,6 +65,7 @@ function Tabs(props) {
                     <span className='badge'>{tabData.recipe?.cuisineType[0].toUpperCase()}</span>
                     <h1>{tabData.recipe.label}</h1>
                     <p><strong>Recipe by:</strong><small>{tabData.recipe.source}</small></p>
+                    <a href={tabData.recipe.url}>Full Recipe</a>
                     <h3>Ingredients</h3>
                     <div className='ingredients'>
                         <ul>

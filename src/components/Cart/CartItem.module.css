@@ -63,3 +63,7 @@
   background-color: #8a2b06;
   color: white;
 }
+.deliveryForm{
+  margin: 1rem;
+  border-top: #8a2b06 2px solid;
+}

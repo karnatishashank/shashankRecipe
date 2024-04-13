@@ -16,7 +16,8 @@
 }
 
 .actions {
-  text-align: right;
+  text-align: center;
+  margin: 1rem;
 }
 
 .actions button {
@@ -44,3 +45,4 @@
   background-color: #8a2b06;
   color: white;
 }
+

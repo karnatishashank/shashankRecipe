@@ -5,6 +5,7 @@ import classes from './Cart.module.css';
 import CartContext from '../../store/cart-context';
 import { FaCheckCircle } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
+import './CartForm.css'
 
 const Cart = (props) => {
   const cartCtx = useContext(CartContext);
@@ -86,11 +87,13 @@ const Cart = (props) => {
       <span>{totalAmount}</span>
       
     </div>
-    <form>
+    <form className='deliveryForm'>
+      <h3>Enter Your details to Deliver your order</h3>
         <label htmlFor='orderAddress'>Address:</label>
         <input type='text' className='adress' id='orderAddress' placeholder='Your Address' name='your_address' />
+       
         <label htmlFor='orderEmail'>Email:</label>
-        <input type='email' className='email' id='orderEmail' placeholder='Your Email' name='your_email' />
+        <input type='email' className='orderEmail' id='orderEmail' placeholder='Your Email' name='your_email' />
       </form>
   </div>
 )}
